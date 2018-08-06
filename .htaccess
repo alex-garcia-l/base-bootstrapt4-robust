@@ -1,0 +1,12 @@
+Options +FollowSymLinks
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f [OR]
+RewriteCond %{REQUEST_FILENAME} !-d
+
+
+RewriteRule ^(.*)\/$ dash.php?page=$1
+
+ErrorDocument 404 /dash.php?page=error404
+
+php_flag display_errors 1
+php_value error_reporting 7

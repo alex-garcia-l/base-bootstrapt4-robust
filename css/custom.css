@@ -1,0 +1,126 @@
+html body .pace .pace-progress {
+    background: #FFC107;
+}
+
+.button-right-header {
+    float: right;
+    /*margin-right: 38px;*/
+}
+
+.btn-round {
+    border-radius:2rem;
+}
+
+.btn-square { 
+    border-radius: 0;
+}
+
+.icon-login {
+  font-size: 5rem;
+}
+
+
+
+.has-error .help-block,
+.has-error .control-label,
+.has-error .radio,
+.has-error .checkbox,
+.has-error .radio-inline,
+.has-error .checkbox-inline {
+  color: #DA4453 !important;
+}
+.has-error .form-control {
+  border-color: #DA4453 !important;
+}
+.has-error .form-control:focus {
+  border-color: #DA4453 !important;
+}
+.has-error .input-group-addon {
+  color: white !important;
+  background-color: #DA4453 !important;
+  border-color: #DA4453 !important;
+}
+.has-error .form-control-feedback {
+  color: #DA4453 !important;
+}
+
+.sorting_disabled:last-child {
+  width: 60px;
+  min-width: 60px;
+  text-align: center;
+}
+
+.menu-botones-tabla button:hover {
+  width: 75%;
+  cursor: pointer;
+}
+
+.icono-campos-obligatorios {
+  font-size: 0.7rem;
+}
+
+.container-controls-table {
+  width: auto;
+  display: inline-block;
+}
+
+.dataTables_length {
+  text-align: right;
+}
+
+.dataTables_filter {
+  text-align: left !important;
+}
+
+.contenedor-tabla-privilegios-modal {
+  max-height: 273px !important;
+  overflow-y: auto;
+}
+
+#tabla-privilegios-modal .text-xs-center tr > td:first-child {
+  text-align: left !important;
+}
+
+.avatar-login {
+  width: 100px;
+  height: 100px;
+  border: 1px solid #d4d4d4;
+  border-radius: 50%;
+  padding: 0.1rem;
+}
+
+.select2-selection {
+  padding-top: 2px;
+  height: 37px !important;
+  border-radius: 0.18rem 0 0 0.18rem !important;
+  border-right-width: 0px;
+}
+
+.select2-container {
+  width: 100% !important;
+}
+
+.select2-selection__arrow {
+  top: 5px !important;
+}
+
+.complemento-acciones-pedidos {
+  display: none;
+}
+
+/* Paginacion */
+
+.page-link, 
+.page-link:hover {
+  color: #FFC107;;
+}
+
+.page-item.active .page-link, .page-item.active .page-link:focus,
+.page-item.active .page-link, .page-item.active .page-link:hover {
+    background-color: #FFC107;
+    border-color: #FFC107;
+}
+
+.form-fecha {
+  padding: 6px 10px;
+}

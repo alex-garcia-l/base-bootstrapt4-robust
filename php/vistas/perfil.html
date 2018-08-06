@@ -1,0 +1,131 @@
+<div class="content-body">
+  
+  <div class="row match-height">
+	<div class="col-md-12">
+		<div class="card"> <!-- border-top-primary border-top-3 border-bottom-blue border-bottom-3  -->
+			<div class="card-header"> <!-- card-head-inverse bg-primary -->
+				<h4 class="card-title" id="basic-layout-form">Mi cuenta</h4>
+				<!--<a class="heading-elements-toggle"><i class="icon-ellipsis font-medium-3"></i></a>
+				<div class="heading-elements">
+					<ul class="list-inline mb-0">
+						<li><a href="#" data-action="expand"><i class="icon-expand2"></i></a></li>
+					</ul>
+				</div>-->
+			</div>
+			<div class="card-body collapse in">
+				<div class="card-block pb-0">
+					<form class="form" id="form-modificar">
+					    <fieldset id="fieldset-form">
+    						<div class="form-body col-sm-6">
+    							<h4 class="form-section">Información personal</h4>
+    							<div class="row">
+    								<div class="col-md-12">
+    									<div class="form-group">
+    										<label for="txtNombre">Nombre</label> <i class="icono-campos-obligatorios text-danger icon-asterisk2"></i>
+                                            <div class="input-group">
+                                                <input id="txtNombre" class="form-control" placeholder="Nombre" name="txtNombre" type="text" value="{NOMBRE}" disabled>
+                                                <span class="input-group-addon" id="basic-addon8"><i class="icon-user4"></i></span>
+                                            </div>
+    									</div>
+    								</div>
+    							</div>
+    							<div class="row">
+    								<div class="col-md-12">
+    									<div class="form-group">
+    										<label for="txtDireccion">Dirección</label> <i class="icono-campos-obligatorios text-danger icon-asterisk2"></i>
+                                            <div class="input-group">
+                                                <input id="txtDireccion" class="form-control" placeholder="Dirección" name="txtDireccion" type="text" value="{DIRECCION}" disabled>
+                                                <span class="input-group-addon" id="basic-addon8"><i class="icon-map-marker"></i></span>
+                                            </div>
+    									</div>
+    								</div>
+    							</div>
+    							<div class="row">
+    								<div class="col-md-6">
+    									<div class="form-group">
+    										<label for="txtTelefono">Teléfono</label>
+                                            <div class="input-group">
+                                                <input id="txtTelefono" class="form-control" placeholder="Teléfono" name="txtTelefono" value="{TELEFONO}" type="text">
+                                                <span class="input-group-addon" id="basic-addon8"><i class="icon-phone2"></i></span>
+                                            </div>
+    									</div>
+    								</div>
+    								<div class="col-md-6">
+    									<div class="form-group">
+    										<label for="txtCelular">Celular</label>
+                                            <div class="input-group">
+                                                <input id="txtCelular" class="form-control" placeholder="Celular" name="txtCelular" value="{CELULAR}" type="text">
+                                                <span class="input-group-addon" id="basic-addon8"><i class="icon-mobile2"></i></span>
+                                            </div>
+    									</div>
+    								</div>
+    							</div>
+    							<div class="row">
+    								<div class="col-md-6">
+    									<div class="form-group">
+    										<label for="txtCorreo">Correo</label>
+                                            <div class="input-group">
+                                                <input id="txtCorreo" class="form-control" placeholder="Correo" name="txtCorreo" value="{CORREO}" type="text">
+                                                <span class="input-group-addon" id="basic-addon8"><i class="icon-envelope"></i></span>
+                                            </div>
+    									</div>
+    								</div>
+    							</div>
+    	                </div>
+    	                <input type="hidden" id="action" name="action" value="modificar-perfil-usuario">
+                        <input type="hidden" id="txtUsuarioActual" name="txtUsuarioActual" value="{USER}">
+    	                <div class="form-body col-sm-6">
+    							<h4 class="form-section">Datos de usuario</h4>
+    	
+    							<div class="row">
+    								<div class="col-md-6">
+    									<div class="form-group">
+    										<label for="txtUser">Nombre de usuario</label> <i class="icono-campos-obligatorios text-danger icon-asterisk2"></i>
+                                            <div class="input-group">
+                                                <input id="txtUser" class="form-control" placeholder="Nombre de usuario" name="txtUser" value="{USER}" type="text">
+                                                <span class="input-group-addon" id="basic-addon8"><i class="icon-user4"></i></span>
+                                            </div>
+    									</div>
+    								</div>
+    								
+    								<div class="col-md-6">
+    									<div class="form-group text-xs-center">
+    										
+    									</div>
+    								</div>
+    							</div>
+    							<div class="row">
+    								<div class="col-md-6">
+    									<div class="form-group">
+    										<label for="txtPass">Contraseña</label>
+                                            <div class="input-group">
+                                                <input id="txtPass" class="form-control" placeholder="Contraseña" name="txtPass" type="password">
+                                                <span class="input-group-addon" id="basic-addon8"><i class="icon-lock2"></i></span>
+                                            </div>
+    									</div>
+    								</div>
+    								<div class="col-md-6">
+    									<div class="form-group">
+    										<label for="txtConfirmarPass">Confirmar contraseña</label>
+                                            <div class="input-group">
+                                                <input id="txtConfirmarPass" class="form-control" placeholder="Confirmar contraseña" name="txtConfirmarPass" type="password">
+                                                <span class="input-group-addon" id="basic-addon8"><i class="icon-lock2"></i></span>
+                                            </div>
+    									</div>
+    								</div>
+    							</div>
+    						</div>
+    	
+    						<div class="form-actions col-sm-12 right">
+    						    <span class="text-danger float-sm-left"><i class="icono-campos-obligatorios icon-asterisk2"></i> Campos requeridos</span>
+    							<button type="submit" class="btn btn-green">Guardar</button>
+    						</div>
+    					</fieldset>
+					</form>
+						
+				</div>
+			</div>
+		</div>
+	</div>
+  </div>
+</div>
